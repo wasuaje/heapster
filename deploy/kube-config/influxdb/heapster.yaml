@@ -40,7 +40,7 @@ metadata:
   namespace: kube-system
 spec:
   ports:
-  - port: 9090
+  - port: 80
     targetPort: 8082
   selector:
     k8s-app: heapster
